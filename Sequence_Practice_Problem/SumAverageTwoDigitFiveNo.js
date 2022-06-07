@@ -1,0 +1,10 @@
+let number_1 = Math.floor(Math.random() * 100) + 1;
+let number_2 = Math.floor(Math.random() * 100) + 1;
+let number_3 = Math.floor(Math.random() * 100) + 1;
+let number_4 = Math.floor(Math.random() * 100) + 1;
+let number_5 = Math.floor(Math.random() * 100) + 1;
+console.log( "The five random two digit values are" ,number_1 ,number_2 ,number_3, number_4, number_5);
+let sum= number_1 + number_2 + number_3 + number_4 + number_5;
+let average = sum/5;
+console.log( "The five random two digit values are",sum);
+console.log( "The five random two digit values are",average);
